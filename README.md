@@ -25,8 +25,23 @@ sudo systemctl enable nginx
 sudo systemctl status nginx
 ```
 
-### 2. Crear el directorio de la aplicación Flask
+### 3. Crear el directorio de la aplicación Flask
+Crea el directorio para tu aplicación y establece los permisos adecuados:
 ```bash
 sudo mkdir -p /opt/flask_app
 sudo chown ec2-user:ec2-user /opt/flask_app
 cd /opt/flask_app
+```
+
+### 4. Instalar Python y PIP
+Instala Python 3 y pip:
+```bash
+sudo dnf install python3-pip -y
+```
+
+### 5. Instalar Flask y dependencias
+Instala Flask y otras dependencias necesarias:
+```bash
+sudo pip3 install Flask gunicorn flask-restful flask-swagger-ui
+```
+
