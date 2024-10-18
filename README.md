@@ -45,3 +45,30 @@ Instala Flask y otras dependencias necesarias:
 sudo pip3 install Flask gunicorn flask-restful flask-swagger-ui
 ```
 
+### 6. Crear el archivo app.py
+Crea el archivo app.py con el siguiente contenido:
+```bash
+vi app.py
+```
+
+```bash
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello, Flask on Amazon Linux with Nginx and Gunicorn!"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8000)
+```
+
+### 7. Ejecutar la aplicación Flask
+
+Para probar la aplicación, ejecuta:
+
+```bash
+python3 app.py
+
+```
