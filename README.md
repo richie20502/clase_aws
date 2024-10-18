@@ -72,3 +72,78 @@ Para probar la aplicación, ejecuta:
 python3 app.py
 
 ```
+
+### 8. Configurar Gunicorn como servicio
+Determina la ruta de Gunicorn:
+```bash
+which gunicorn
+```
+Luego, crea el archivo de servicio para Gunicorn:
+
+```bash
+sudo vi /etc/systemd/system/flask_app.service
+```
+
+Agrega el siguiente contenido:
+```bash
+[Unit]
+Description=Gunicorn instance to serve Flask app
+After=network.target
+
+[Service]
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/opt/flask_app
+ExecStart=/usr/local/bin/gunicorn --workers 3 --bind 0.0.0.0:8000 app:app
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### 9. Recargar el daemon de systemd y empezar el servicio
+Ejecuta los siguientes comandos:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start flask_app
+sudo systemctl status flask_app
+```
+
+### 10. Configurar Nginx
+Edita el archivo de configuración de Nginx:
+```bash
+sudo vi /etc/nginx/nginx.conf
+```
+
+Agrega el bloque server dentro de http:
+```bash
+server {
+    listen 80;
+    server_name 54.224.134.84;  # Reemplaza con tu dirección IPv4 public
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+```
+
+### 11. Probar la configuración de Nginx
+Verifica que no haya errores de sintaxis en la configuración de Nginx:
+```bash
+sudo nginx -t
+```
+
+### 12. Reiniciar Nginx
+Si no hay errores, reinicia Nginx:
+
+```bash
+sudo systemctl restart nginx
+```
+
+
+
+
