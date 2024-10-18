@@ -23,3 +23,9 @@ sudo dnf install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
+
+### 2. Crear el directorio de la aplicación Flask
+```bash
+sudo mkdir -p /opt/flask_app
+sudo chown ec2-user:ec2-user /opt/flask_app
+cd /opt/flask_app
