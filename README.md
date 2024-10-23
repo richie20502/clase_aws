@@ -25,11 +25,11 @@ Siempre busco soluciones creativas e innovadoras, enfrentando nuevos desafíos p
 
 
 ## Contenidos  
-- [Ques es AWS ](0_AWS.md)
-- [AWS IAM](1_AWS_IAM.md)
-- [AWS Billing](AWS_Billing.md).
-- [AWS EC2](3_AWS_EC2.md).
-- [AWS EC2 Example ](3_AWS_EC2_Example.md).
+- [Ques es AWS ](AWS/0_AWS.md)
+- [AWS IAM](IAM/1_AWS_IAM.md)
+- [AWS Billing](BILLING/2_AWS_Billing.md).
+- [AWS EC2](EC2/3_AWS_EC2.md).
+- [AWS EC2 Example ](EC2/3_AWS_EC2_Example.md).
 
 - 
 
