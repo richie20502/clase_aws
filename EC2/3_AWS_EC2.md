@@ -73,5 +73,6 @@
 - [Documentación Oficial de EC2](https://docs.aws.amazon.com/ec2)
 - [Precios de EC2](https://aws.amazon.com/ec2/pricing/)
 - [Tipos de Instancias EC2](https://aws.amazon.com/ec2/instance-types/)
+- [Calculadora Ec2](https://calculator.aws/#/addService)
 
 -----------------------------------------------------------------------------------------
