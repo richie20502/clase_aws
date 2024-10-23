@@ -11,4 +11,5 @@ Este proyecto muestra cómo trabajar con Amazon S3 para almacenar y acceder a im
 ![Gráfico de Ejemplo](https://prueba-image.s3.us-east-1.amazonaws.com/Screenshot+2024-10-23+003839.png)
 4. Asigna un nombre único al bucket (por ejemplo, `prueba-image`) y selecciona una región.
 ![Gráfico de Ejemplo](https://prueba-image.s3.us-east-1.amazonaws.com/Screenshot+2024-10-23+003929.png)
-4. Configura las opciones del bucket según tus necesidades y haz clic en **Crear**.
+4. Configura las opciones del bucket según tus necesidades y haz clic en **Crear bucket**.
+![Gráfico de Ejemplo](https://prueba-image.s3.us-east-1.amazonaws.com/Screenshot+2024-10-23+010145.png)
