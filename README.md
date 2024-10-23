@@ -41,7 +41,8 @@ Para ejecutar los ejemplos y herramientas presentadas en esta documentación, ne
    - Descarga: [Node.js LTS](https://nodejs.org/)  
 
 3. **AWS CLI**:  
-   - Instalación: [AWS Command Line Interface](https://aws.amazon.com/cli/)  
+   - Instalación: [AWS Command Line Interface](https://aws.amazon.com/cli/)
+   - Download: [Descarga](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
    - Requerido para interactuar con los servicios de AWS desde la línea de comandos.
 
 4. **Git**:  
