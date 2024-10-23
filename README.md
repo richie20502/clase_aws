@@ -318,6 +318,73 @@ Si no hay errores, reinicia Nginx:
 sudo systemctl restart nginx
 ```
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+# AWS RDS (Relational Database Service)
+
+## ¿Qué es RDS?
+**Amazon RDS (Relational Database Service)** es un servicio administrado de bases de datos relacionales en la nube de AWS. Simplifica la configuración, operación y escalado de bases de datos, eliminando tareas complejas como la administración de servidores, actualizaciones de software, respaldos y recuperación. 
+
+Con **RDS**, los usuarios pueden enfocarse en optimizar sus aplicaciones mientras AWS gestiona la infraestructura subyacente.
+
+---
+
+## **¿Cómo funciona AWS RDS?**
+RDS permite implementar bases de datos en la nube en cuestión de minutos, ofreciendo:
+- **Automatización** de tareas administrativas como actualizaciones y copias de seguridad.
+- **Alta disponibilidad** con réplicas multi-zona (Multi-AZ).
+- **Escalabilidad** vertical y horizontal para gestionar el crecimiento de los datos.
+- **Seguridad** integrada con cifrado en reposo y en tránsito, y control de acceso con **IAM**.
+
+---
+
+## **Motores de Base de Datos Soportados**
+- **Amazon Aurora**: Una base de datos optimizada para la nube, compatible con MySQL y PostgreSQL.
+- **MySQL**: Soporte completo para bases de datos relacionales de código abierto.
+- **PostgreSQL**: Ofrece características avanzadas y soporte de extensiones.
+- **MariaDB**: Una variante de MySQL con mejoras de rendimiento.
+- **Oracle Database**: Con licencias opcionales de Oracle.
+- **Microsoft SQL Server**: Compatible con aplicaciones Windows.
+
+---
+
+## **Características Principales de RDS**
+1. **Automatización de Backups**  
+   - RDS realiza **respaldos automáticos diarios** y permite crear **snapshots** manuales.
+
+2. **Alta Disponibilidad con Multi-AZ**  
+   - Réplicas en múltiples zonas de disponibilidad garantizan la **resiliencia ante fallos**.
+
+3. **Escalabilidad**  
+   - **Escalamiento vertical:** Aumenta la capacidad del servidor de forma sencilla.  
+   - **Réplicas de lectura:** Escala horizontalmente distribuyendo la carga de consultas.
+
+4. **Seguridad**  
+   - **Cifrado:** Datos cifrados en reposo y en tránsito mediante AWS KMS.  
+   - **Acceso controlado:** Gestión de usuarios y roles con IAM.
+
+---
+
+## **Casos de Uso**
+- **Aplicaciones empresariales** con necesidades de bases de datos escalables.
+- **Sistemas ERP y CRM** que requieren alta disponibilidad.
+- **Aplicaciones web** que usan bases de datos relacionales para gestionar usuarios y contenido.
+- **Analítica en tiempo real** con bases optimizadas como **Aurora**.
+
+---
+
+## **Precios**
+El costo de RDS depende del motor elegido, el tamaño de la instancia, el almacenamiento utilizado y el tráfico de red.  
+Consulta los precios en: [Precios de AWS RDS](https://aws.amazon.com/rds/pricing/)
+
+---
+
+## **Más Información**
+- [Documentación Oficial de RDS](https://docs.aws.amazon.com/rds/)
+- [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
+- [Guía de RDS Multi-AZ](https://aws.amazon.com/rds/features/multi-az/)
+
+---
 
 
 
