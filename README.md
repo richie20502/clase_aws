@@ -26,7 +26,10 @@ Siempre busco soluciones creativas e innovadoras, enfrentando nuevos desafíos p
 
 ## Contenidos  
 - [Ques es AWS ](0_AWS.md)
-- [Tecnologías favoritas](#tecnologías-favoritas)  
-- [Contacto](#contacto)  
+- [AWS IAM](1_AWS_IAM.md)
+- [AWS Billing](AWS_Billing.md).
+- [AWS EC2](3_AWS_EC2.md).
+
+- 
 
 ---
