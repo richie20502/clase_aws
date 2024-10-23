@@ -29,6 +29,7 @@ Siempre busco soluciones creativas e innovadoras, enfrentando nuevos desafíos p
 - [AWS IAM](1_AWS_IAM.md)
 - [AWS Billing](AWS_Billing.md).
 - [AWS EC2](3_AWS_EC2.md).
+- [AWS EC2 Example ](3_AWS_EC2_Example.md).
 
 - 
 
