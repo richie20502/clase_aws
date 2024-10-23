@@ -22,3 +22,11 @@ Siempre busco soluciones creativas e innovadoras, enfrentando nuevos desafíos p
 ¡Hablemos y creemos algo genial juntos!  
 📫 **richie20502**  
 #AWS #Python #PHP #NodeJS #JS #REACT
+
+
+## Contenidos  
+- [Ques es AWS ](0_AWS.md)
+- [Tecnologías favoritas](#tecnologías-favoritas)  
+- [Contacto](#contacto)  
+
+---
