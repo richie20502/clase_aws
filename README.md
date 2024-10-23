@@ -1,3 +1,30 @@
+# AWS IAM (Identity and Access Management)
+
+**IAM** es un servicio de AWS que permite gestionar el acceso seguro a los recursos de la nube. Con IAM puedes crear usuarios, roles y políticas para definir qué acciones pueden realizar en la cuenta y qué recursos pueden acceder.
+
+---
+
+## **Conceptos clave**
+
+### 1. Usuarios
+- Representan personas o aplicaciones que necesitan acceso a los servicios.
+- Pueden tener **contraseñas** o **access keys** para autenticarse en AWS.
+
+### 2. Grupos
+- Colección de usuarios que comparten las mismas políticas de permisos.
+- Facilitan la administración centralizada de permisos para varios usuarios.
+
+### 3. Roles
+- Permiten asignar permisos a servicios de AWS, como EC2 o Lambda, sin usar credenciales permanentes.
+- Ejemplo: Lambda puede asumir un rol para acceder a un bucket S3.
+
+### 4. Políticas
+- Documentos en formato **JSON** que definen las acciones permitidas o denegadas.
+- Se pueden asociar a **usuarios, grupos o roles**.
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # Configuración de Aplicación Flask en Amazon Linux con Nginx y Gunicorn
 
 Este documento describe los pasos necesarios para configurar una aplicación Flask en una instancia de Amazon Linux utilizando Nginx como servidor web y Gunicorn como servidor WSGI.
