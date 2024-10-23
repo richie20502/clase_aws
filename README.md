@@ -43,7 +43,15 @@ Para ejecutar los ejemplos y herramientas presentadas en esta documentación, ne
    - Para clonar repositorios y colaborar en proyectos.
 
 5. **IDE recomendado**:  
-   - [Visual Studio Code](https://code.visualstudio.com/) con extensiones para Python, Node.js y AWS.  
+   - [Visual Studio Code](https://code.visualstudio.com/) con extensiones para Python, Node.js y AWS.
+     
+6. **Workbench**:  
+   - Instalación: [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)  
+   - Requerido para administrar bases de datos MySQL de manera gráfica.
+
+7. **MobaXterm**:  
+   - Instalación: [MobaXterm](https://mobaxterm.mobatek.net/)  
+   - Cliente SSH para conexiones remotas con múltiples herramientas integradas.
 
 
 
