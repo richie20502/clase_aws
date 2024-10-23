@@ -24,6 +24,29 @@ Siempre busco soluciones creativas e innovadoras, enfrentando nuevos desafíos p
 #AWS #Python #PHP #NodeJS #JS #REACT
 
 
+## Software Requerido  
+Para ejecutar los ejemplos y herramientas presentadas en esta documentación, necesitarás el siguiente software:
+
+1. **Python**:  
+   - Versión recomendada: [Python 3.10+](https://www.python.org/downloads/)  
+   - Gestor de paquetes: `pip` (incluido con Python)
+
+2. **Node.js y NPM**:  
+   - Descarga: [Node.js LTS](https://nodejs.org/)  
+
+3. **AWS CLI**:  
+   - Instalación: [AWS Command Line Interface](https://aws.amazon.com/cli/)  
+   - Requerido para interactuar con los servicios de AWS desde la línea de comandos.
+
+4. **Git**:  
+   - Instalación: [Git](https://git-scm.com/)  
+   - Para clonar repositorios y colaborar en proyectos.
+
+5. **IDE recomendado**:  
+   - [Visual Studio Code](https://code.visualstudio.com/) con extensiones para Python, Node.js y AWS.  
+
+
+
 ## Contenidos  
 - [Ques es AWS ](AWS/0_AWS.md)
 - [AWS IAM](IAM/1_AWS_IAM.md)
