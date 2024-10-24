@@ -1,7 +1,7 @@
 
 # Configuración de Aplicación Flask en Amazon Linux con Nginx y Gunicorn
 
-Este documento describe los pasos necesarios para configurar una aplicación Flask en una instancia de Amazon Linux utilizando Nginx como servidor web y Gunicorn como servidor WSGI.
+Este documento describe los pasos necesarios para configurar una aplicación Flask en una instancia de Amazon Linux utilizando Nginx como servidor web y Gunicorn como servidor WSGI (Web Server Gateway Interface).
 
 ## Prerrequisitos
 - descarga mobaxTerm
