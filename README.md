@@ -67,8 +67,10 @@ Para ejecutar los ejemplos y herramientas presentadas en esta documentación, ne
 - [AWS IAM](IAM/1_AWS_IAM.md)  
 - [AWS Billing](BILLING/2_AWS_Billing.md)  
 - [AWS EC2](EC2/3_AWS_EC2.md)  
-- [AWS EC2 Example](EC2/3_AWS_EC2_Example.md)  
-- [AWS S3 ](S3/AWS_S3.md)  
-- [AWS S3 Example ](S3/AWS_s3_EXAMPLE.md)  
+- [AWS EC2 Example](EC2/3_AWS_EC2_Example.md)
+- [AWS RDS](RDS/4_AWS_RDS.md)
+- [AWS S3 ](S3/AWS_s3.md)  
+- [AWS S3 Example ](S3/AWS_s3_EXAMPLE.md)
+- [AWS Amplify ](Amplify/AWS_AMPLIFY.md)  
 
 ---
