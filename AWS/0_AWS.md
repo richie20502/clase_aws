@@ -7,7 +7,7 @@
 
 ## ¿Cómo trabaja AWS?
 
-AWS se basa en el concepto de **infraestructura como servicio (IaaS)**, **plataforma como servicio (PaaS)** y **software como servicio (SaaS)**. A continuación se explica su funcionamiento básico:
+AWS se basa en el concepto de **infraestructura como servicio**, **plataforma como servicio** y **software como servicio**. A continuación se explica su funcionamiento básico:
 
 1. **Servicios Globales y Regiones**  
    - AWS está dividido en **regiones geográficas** que contienen varias **zonas de disponibilidad** (data centers).  
