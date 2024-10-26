@@ -1,4 +1,4 @@
-# Ricardo Lugo Recillas A.K.A Richie
+# Ricardo Lugo Recillas A.K.A El Richie
 
 👨‍💻 **Ingeniería en TIC** | **Especialista en Desarrollo e Infraestructura** | **Fullstack Developer**  
 
