@@ -147,3 +147,37 @@ sudo systemctl restart nginx
 
 
 
+## cerificado autofirmado
+
+```bash
+sudo mkdir -p /etc/nginx/ssl
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+  -keyout /etc/nginx/ssl/nginx-selfsigned.key \
+  -out /etc/nginx/ssl/nginx-selfsigned.crt
+```
+
+```bash
+server {
+    listen 443 ssl;
+    server_name 54.224.134.84;  # Reemplaza con tu dirección IPv4 o dominio
+
+    ssl_certificate /etc/nginx/ssl/nginx-selfsigned.crt;
+    ssl_certificate_key /etc/nginx/ssl/nginx-selfsigned.key;
+
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers HIGH:!aNULL:!MD5;
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+
+
+
+
