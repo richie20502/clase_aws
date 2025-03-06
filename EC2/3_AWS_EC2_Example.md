@@ -177,6 +177,11 @@ server {
 }
 ```
 
+## Intalacion de mysql client 
+sudo dnf clean packages
+sudo dnf install -y https://dev.mysql.com/get/mysql80-community-release-el9-1.noarch.rpm
+sudo dnf install mysql-community-server --nogpgcheck -y
+sudo mysql -u admin -p -h database-1.cj6eqyma89cg.us-east-1.rds.amazonaws.com
 
 
 
