@@ -98,3 +98,6 @@ Abre en tu navegador:
 
 ¡Tu aplicación Laravel ya está funcionando en **Amazon Linux 2023 con Apache**! 🚀🎉
 
+openssl 
+mod_ssl
+
