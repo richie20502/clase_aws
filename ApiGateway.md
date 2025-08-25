@@ -1,0 +1,74 @@
+# 📘 Programa del Curso: API Gateway en AWS
+
+## 1. Introducción
+En este curso estudiaremos el servicio **Amazon API Gateway**, su importancia en arquitecturas modernas y su integración con otros servicios de AWS, principalmente **AWS Lambda**.  
+
+El objetivo es comprender a fondo el servicio y desarrollar competencias prácticas en su implementación.
+
+---
+
+## 2. Objetivos de Aprendizaje
+Al finalizar el curso, el estudiante será capaz de:
+
+- Explicar los conceptos fundamentales de **API Gateway**.  
+- Comprender la relación de API Gateway con **Lambda** y otros servicios de AWS.  
+- Implementar APIs utilizando **la consola de AWS** y herramientas de **Infraestructura como Código (IaC)**.  
+- Aplicar **AWS CloudFormation, AWS SAM, Serverless Framework y Terraform** para desplegar APIs.  
+- Desarrollar pensamiento crítico en torno al **diseño y la seguridad de APIs**.  
+
+---
+
+## 3. Estructura del Curso
+El curso estará dividido en **tres módulos principales** (más un módulo opcional):
+
+### 🔹 Módulo I: Conceptos Fundamentales
+- Introducción a las APIs.  
+- HTTP y REST.  
+- ¿Qué es Amazon API Gateway?  
+- Casos de uso y beneficios.  
+- Componentes principales del servicio.  
+
+### 🔹 Módulo II: Prácticas con API Gateway
+- Creación y configuración de APIs en la consola de AWS.  
+- Integración con Lambda.  
+- Autenticación y autorización (**IAM, Cognito, API Keys**).  
+- Despliegue de APIs.  
+
+**Ejercicios prácticos:**
+- Crear una API desde cero.  
+- Conectar una API a un microservicio en Lambda.  
+- Gestionar versiones y entornos.  
+
+### 🔹 Módulo III: Infraestructura como Código (IaC)
+- Introducción a IaC.  
+- Uso de **AWS CloudFormation** para APIs.  
+- Uso de **AWS SAM** para aplicaciones serverless.  
+- Uso de **Serverless Framework**.  
+- Uso de **Terraform**.  
+
+**Taller:** Desplegar un API con cada herramienta y comparar enfoques.  
+
+### 🔹 Módulo IV (Opcional): Instalación de Herramientas
+- Instalación de AWS SAM.  
+- Instalación de Serverless Framework.  
+- Instalación de Terraform.  
+
+---
+
+## 4. Recursos
+- 📖 Documentación oficial:  
+  - [API Gateway](https://docs.aws.amazon.com/apigateway/)  
+  - [Lambda](https://docs.aws.amazon.com/lambda/)  
+
+- 💻 Repositorio con ejemplos y prácticas (próximamente).  
+
+---
+
+## 5. Recomendaciones
+- Realizar cada práctica en tu propia cuenta de AWS.  
+- Clonar el repositorio, modificar el código, romperlo, reconstruirlo: **aprender haciendo**.  
+- Complementar el curso con la documentación oficial.  
+
+---
+
+✍️ *Nos vemos en el curso. ¡Manos a la obra!*
